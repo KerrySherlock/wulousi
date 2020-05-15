@@ -23,7 +23,7 @@ public class CARMESApplication {
     @EventListener
     public void onApplicationEvent(AuthorizingHandleBeforeEvent event) {
         /*if (event.getContext().getAuthentication().getUser().getUsername().equals("adm")) {
-            event.setAllow(true);dsafsdafsdaf
+            event.setAllow(true);
         }*/
     }
 
